@@ -72,7 +72,7 @@ What is important is that each class order its members in some logical order, wh
 
 <a name="indentation"></a>
 ### Indentation
-All blocks of code should be indented with 2 spaces.  Spaces, not tabs, to ensure that it looks the same on everyone's screen and doesn't waste horizontal space.
+All blocks of code should be indented with 1 tab character.  Whitespace in Salesforce is counted as characters against an organizations code limit and will add up over time.
 
 <a name="new-lines-and-spaces"></a>
 ### New-lines and spaces
