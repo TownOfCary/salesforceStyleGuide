@@ -51,7 +51,7 @@ This is still a living document and I'm happy to make changes.
 ### Special characters
 <a name="whitespace"></a>
 #### Whitespace
-The only permissible whitespace characters in source code are newline and space (0x20).  Inside of a string literal, only a space is allowed.  Line must not end with spaces (`/ +$/` must not match anything in the file).  Classes should all end with a newline.
+The only permissible whitespace characters in source code are newline, tab(0x09) and space (0x20).  Inside of a string literal, only a space is allowed.  Line must not end with spaces (`/ +$/` must not match anything in the file).  Classes should all end with a newline.
 
 <a name="special-escape-sequences"></a>
 #### Special escape sequences
