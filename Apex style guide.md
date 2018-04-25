@@ -90,7 +90,7 @@ In method definitions, there should be no space before the open parenthesis, and
 
 In method calls and definitions, there should not be whitespace between the name of the method and the open parenthesis.
 
-A single space should separate binary operators from the surrounding elements (e.g., `+`, `||`, `=`, `>=`).  Unary operators (`!`, `-`) should be attached to their parameters.  A colon inside a `for each` loop (e.g., `for (Contact cnt : contacts) {`) should have one space on either side.  There should be no whitespace before commas, and one space after (e.g., `System.debug(LoggingLevel.INFO, 'fsdfs');`).
+A single space should separate binary operators from the surrounding elements (e.g., `+`, `||`, `=`, `>=`).  Unary operators (`!`, `--`) should be attached to their parameters.  A colon inside a `for each` loop (e.g., `for (Contact cnt : contacts) {`) should have one space on either side.  There should be no whitespace before commas, and one space after (e.g., `System.debug(LoggingLevel.INFO, 'fsdfs');`).
 
 If using C#-style properties, code should follow the following rules:
 
