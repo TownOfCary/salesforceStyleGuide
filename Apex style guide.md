@@ -41,7 +41,7 @@ See the Internet for more arguments about why style guides are important and use
 
 <a name="sources"></a>
 ### Sources
-Since Apex is largely a Java and C# spin-off, I am largely relying on [Google Java Style Guide](http://google-styleguide.googlecode.com/svn/trunk/javaguide.html) first, then C# where those do not apply.  And some is just pulled out of my own opinions.
+This was forked from [Polaris Project Salesforce Style Guide](https://github.com/PolarisProject/salesforceStyleGuide) to use a starting point.  He relied heavily on the [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html) and I am mostly following in his footsteps.  Some is also of my own opinions from my own experience.
 
 This is still a living document and I'm happy to make changes.
 
