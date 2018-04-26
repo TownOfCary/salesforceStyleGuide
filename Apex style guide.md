@@ -15,6 +15,7 @@
   - [New-lines and spaces](#new-lines-and-spaces)
   - [Comments](#comments)
   - [Modifiers](#modifiers)
+  - [Annotations](#annotations)
   - [Prefer Explicit Declarations](#prefer-explicit-declarations)
   - [`@isTest`](#istest)
   - [Capitalization](#capitalization)
@@ -104,6 +105,7 @@ If using C#-style properties, code should follow the following rules:
 
 <a name="comments"></a>
 ### Comments
+
 Block comments are indented at the same level as the surrounding code. They may be in /\* ... \*/ style or // ... style. For multi-line /\* ... \*/ comments, subsequent lines must start with \* aligned with the \* on the previous line.
 
 ```java
@@ -115,11 +117,28 @@ Block comments are indented at the same level as the surrounding code. They may 
 
 <a name="modifiers"></a>
 ### Modifiers
+
 Class and member modifiers, when present, appear in the order recommended by the Java Language Specification:
 ```java
   public protected private abstract default static final transient volatile synchronized native strictfp
 ```
+<a name="annotations"></a>
+### Annotations
 
+Annotations applying to a class, method or constructor appear immediately after the documentation block, and each annotation is listed on a line of its own (that is, one annotation per line). These line breaks do not constitute line-wrapping, so the indentation level is not increased. Example:
+
+```java
+  @InvocableMethod
+  public void exampleFunction( ) {
+    ...
+  }
+```
+
+Annotations applying to a field also appear immediately after the documentation block, but in this case, multiple annotations (possibly parameterized) may be listed on the same line; for example:
+
+```java
+  @AuraEnabled public Account acc;
+```
 
 <a name="prefer-explicit-declarations"></a>
 ### Prefer Explicit Declarations
