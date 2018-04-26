@@ -112,6 +112,14 @@ Block comments are indented at the same level as the surrounding code. They may 
  */
 ```
 
+<a name="modifiers"></a>
+### Modifiers
+Class and member modifiers, when present, appear in the order recommended by the Java Language Specification:
+```java
+  public protected private abstract default static final transient volatile synchronized native strictfp
+```
+
+
 <a name="prefer-explicit-declarations"></a>
 ### Prefer Explicit Declarations
 Always specify:
