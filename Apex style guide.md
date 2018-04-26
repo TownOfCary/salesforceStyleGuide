@@ -12,6 +12,7 @@
     - [Other Non-ASCII Characters](#other-non-ascii-characters)
 - [Structure](#structure)
   - [Indentation](#indentation)
+  - [Comments](#comments)
   - [New-lines and spaces](#new-lines-and-spaces)
   - [Prefer Explicit Declarations](#prefer-explicit-declarations)
   - [`@isTest`](#istest)
@@ -99,6 +100,17 @@ If using C#-style properties, code should follow the following rules:
  * If there is no logic, it should read `{ get; set; }`.
  * If there is logic, there should be a new-line before each open-brace, and before and after each closed-brace.
  * If one clause has logic and one does not, place the clause without logic on its own line.
+
+<a name="comments"></a>
+### Comments
+Block comments are indented at the same level as the surrounding code. They may be in /\* ... \*/ style or // ... style. For multi-line /\* ... \*/ comments, subsequent lines must start with \* aligned with the \* on the previous line.
+
+```java
+/*
+ * This is        // And So       /* Or you can
+ * okay,          // Is This       * even do this */
+ */
+```
 
 <a name="prefer-explicit-declarations"></a>
 ### Prefer Explicit Declarations
