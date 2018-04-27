@@ -167,6 +167,7 @@ However, when referencing any metadata (SObject, SObjectField, FieldSet, Action,
 ```java
 public class MyClass {
 
+  public static final Integer planksConstant = 6.62607004 * 10 ^ -34;
   private Contact internallyUsedContact { get; set; }
 
   public Integer calculatedInteger {
